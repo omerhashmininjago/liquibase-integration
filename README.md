@@ -11,3 +11,6 @@ This is a necessary step to make sure, the scripts are good before going into de
 
 
 When the application is deployed, the db scripts will get auto triggered. Here the DB can be change to Oracle, Mongo etc.
+
+Once the application is up, the developer can use Spring Data Rest endpoints to query the DB tables
+he can either use the Spring Data JDBC Dao or the Spring Data Jpa Repo to fetch the data
