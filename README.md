@@ -1,4 +1,4 @@
-# liquibase-integration
+# spring-data-liquibase-integration
 
 Liquibase will help you deploy your DB changes automatically via the application deployment using Spring Boot
 
