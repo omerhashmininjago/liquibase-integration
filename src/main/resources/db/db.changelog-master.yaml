@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: changeLog/db-delta-scripts-DDL.xml
+      relativeToChangeLogFile: true
+  - include:
+      file: changeLog/db-delta-scripts-DML.xml
+      relativeToChangeLogFile: true

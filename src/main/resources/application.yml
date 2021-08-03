@@ -1,0 +1,9 @@
+spring:
+  liquibase:
+    database-change-log-table: DB_CHANGELOG
+    database-change-log-lock-table: DB_CHANGELOG_LOCK
+  database:
+    url: jdbc:h2:mem:test;DB_CLOSE_ON_EXIT=FALSE
+    username: sa
+    password:
+    driverClassName: org.h2.driver
