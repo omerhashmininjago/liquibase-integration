@@ -1,13 +1,10 @@
 package com.omer.service.liquibase;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.jdbc.repository.config.EnableJdbcRepositories;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
-
-import javax.persistence.Entity;
 
 @SpringBootApplication
 @EntityScan(basePackages = "com.omer.service.liquibase.domain")
