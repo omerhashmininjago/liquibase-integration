@@ -5,7 +5,7 @@
 
     <groupId>io.github.omerhashmininjago</groupId>
     <artifactId>liquibase-integration</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <name>Liquibase Integration</name>
